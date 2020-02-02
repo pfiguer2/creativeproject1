@@ -1,0 +1,188 @@
+
+
+#welcomepage {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+}
+
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: larger
+}
+
+.userguide {
+  display: flex;
+  justify-content:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 30px;
+}
+
+.userguide-list {
+  display:flex;
+  justify-content:center;
+}
+
+h2 {
+  padding-bottom:100px;
+}
+
+a {
+  color: #ffffff;
+}
+
+body {
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}
+
+.tips {
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:25px;
+}
+
+.about {
+  text-align: center;
+}
+
+.search-bar {
+/*  border: 1px solid #ac6363;  /* For debugging */
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* Nav----------------------- */
+/* Hamburger Lines */
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+
+.navbar-light .navbar-toggler {
+    /*color: rgba(0,0,0,.5);*/
+    border-color: #bd213000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(35, 145, 187);
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+/* Hamburger Lines */
+
+
+.navbar-light .navbar-nav .nav-link { /*Active menu*/
+    color: rgb(35, 145, 187);
+}
+
+.navbar {
+  /*border: 1px solid red;  /* For debugging */
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  padding: .5rem 1rem;
+  justify-content: space-between;
+  }
+
+  .navbarbrand {
+    /*border: 1px solid blue;  /* For debugging */
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .brand-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar.navbar-expand-lg.navbar-light.bg-light {
+      background-color:#ffffff!important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+      color: rgb(35, 145, 187);
+      padding-left: 50px;
+  }
+
+  .collapse .navbar-collapse {
+    /*border: 1px solid #ac6363;  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .bg-light {
+      background-color: #ffffff!important;
+  }
+
+  .nav .navbar .navbar-light .bg-light {
+    padding-left: 50px;
+  }
+/* Nav ---------------------*/
+
+
+/*Circle Image front page----------------------*/
+.circleimg {
+   border-radius: 50%;
+   padding-top: 100px;
+}
+
+
+.row {
+  justify-content: center;
+
+}
+/*Circle Image front page------------------*/
+
+/*Footer------------------*/
+.footer {
+  background: #e39dba;
+}
+
+.footer .footer-bottom {
+  background: #e39dba;
+  color: #ffffff;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+
+}
+
+/*Footer------------------*/
+
+
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+.catchphrase {
+  display: flex;
+  justify-content:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 45px;
+}
